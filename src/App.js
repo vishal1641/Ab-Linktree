@@ -6,7 +6,7 @@ import { FaFilePdf, FaSun, FaMoon } from "react-icons/fa";
 
 const App = () => {
   const links = [
-    { label: "React Js Interview Questions", file: "/react.docx" },
+    { label: "React Js Interview Questions", file: "/react.pdf" },
     { label: "HTML and CSS Interview Questions ", file: "/htmlcss.pdf" },
     { label: "JavaScript Interview Questions", file: "/js.pdf" },
     { label: "C++ Technical Interview Questions", file: "/c++.pdf" },
@@ -16,10 +16,10 @@ const App = () => {
     { label: "OOPS Interview Questions", file: "/OOPS.pdf" },
     { label: "Computer Networks Interview Questions", file: "/CN.pdf" },
     { label: "Operating System Interview Questions", file: "/OS.pdf" },
-    { label: "SQL Notes", file: "/SQL Practice Questions.docx" },
-    { label: "SQL Practice Questions", file: "/SQL Practice Questions.docx" },
+    { label: "SQL Notes", file: "/SQLnotes.pdf" },
+    { label: "SQL Practice Questions", file: "/SQL.pdf" },
     { label: "HR Interview Questions", file: "/25 HR ques.pdf" },
-    { label: "TCS Pattern Printing Questions ", file: "/Basic Patterns.pdf" },
+    { label: "TCS Pattern Printing Questions ", file: "/Pattern.pdf" },
   ];
 
   const [isDarkTheme, setIsDarkTheme] = useState(true);
